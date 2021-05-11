@@ -1,0 +1,10 @@
+.foot {
+  background: rgba(1, 32, 29, 0.5);
+  padding: .4rem .4rem;
+  text-align: center;
+}
+
+.foot p {
+  color: #fff;
+  font-weight: bold;
+}
