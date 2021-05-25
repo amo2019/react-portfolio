@@ -69,11 +69,9 @@ Developed High Performance Applications for Private Sectors, Developed interface
 
           <Activities
             activityName="Additional Information"
-            activityDescription="- good knowledge of Operating Systems (Windows, macOS, Linux) and networks, code
-   optimization  and hardware architecture.
-   
-   - AI Studies, Cognitive Science. 
-   - Languages: English and German."
+            activityDescription="-good knowledge of Operating Systems (Windows, macOS, Linux) and networks, code
+optimization  and hardware architecture.                                            
+- Languages: English and German."
           />
        
           <hr style={{ borderTop: "3px solid #096816" }} />

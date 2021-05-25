@@ -7,7 +7,7 @@ class Contact extends Component {
       <div className="contact-grid">
         <div className="mdl-cell-1">
           <h2>Amin Omar</h2>
-          <img src={logo} alt="avatar" style={{ height: "200px", maxWidth: "160px" }} />
+          <img src={logo} alt="avatar" style={{ height: "200px", maxWidth: "160px", borderRadius: "60%" }} />
           <p
             style={{
               width: "95%",
@@ -24,7 +24,7 @@ class Contact extends Component {
             implement web applications. taking in consideration that enjoying
             programming and being creative comes from deep understanding and
             practicing to work as Web developer (Full-Stack web developer
-            Boot-camp 2018-2020). I am hard worker, enjoy being challenged and
+            Boot-camp 2019-2021). I am hard worker, enjoy being challenged and
             love programming.
           </p>
         </div>

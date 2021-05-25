@@ -10,7 +10,7 @@ class Skills extends Component {
             <div style={{marginLeft: "10px", flex: "1" }}>
             {this.props.skill}{" "}
             </div>
-            <div style={{flex: "1" }}>
+            <div style={{flex: "2" }}>
             <Progress
               done={this.props.progress}
             />

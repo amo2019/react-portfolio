@@ -16,8 +16,10 @@ const LandingPage = () => (
         </div >
         <div className={s.socialLinks}>
              {/* LinkedIn */}
-             <a href="/" rel="noopener noreferrer" aria-label="Github" target="_blank" rel="noopener" class="social-icon Github grayscale">
-                <i className="fa fa-linkedin-square" aria-hidden="true" />
+             <a href="/" rel="noopener noreferrer" aria-label="Github" target="_blank" className="social-icon Github grayscale">
+                <i className="fa fa-linkedin-square" aria-hidden="true" onClick ={ (e) => {
+    e.preventDefault()
+}}/>
               </a>
 
               {/* Github */}
@@ -25,7 +27,7 @@ const LandingPage = () => (
                 href="https://github.com/amo2019?tab=repositories"
                 rel="noopener noreferrer"
                 target="_blank"
-                aria-label="Github" class="social-icon Github grayscale"
+                aria-label="Github" className="social-icon Github grayscale"
               >
                 <i
                   className="fa fa-github-square"
@@ -40,8 +42,10 @@ const LandingPage = () => (
                 </a> */}
 
               {/* Youtube */}
-              <a href="/" rel="noopener noreferrer" aria-label="youtube" target="_blank" rel="noopener" class="social-icon youtube grayscale">
-                <i className="fa fa-youtube-square" aria-hidden="true" />
+              <a href="/" rel="noopener noreferrer" aria-label="youtube" target="_blank" className="social-icon youtube grayscale">
+                <i className="fa fa-youtube-square" aria-hidden="true" onClick ={ (e) => {
+    e.preventDefault()
+}}/>
               </a>
         </div>
       </div>

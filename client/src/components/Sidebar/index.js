@@ -11,10 +11,10 @@ const list = {
     opacity: 1,
     scale: 1,
     transition: {
-      staggerChildren: 0.07,
+      staggerChildren: 0.05,
     },
   },
-  hidden: { opacity: 0, scale: 0.7 },
+  hidden: { opacity: 0, scale: 0.5 },
 };
 
 const items = {

@@ -25,7 +25,7 @@
 
 .gridContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: minmax(350px, 1fr) 2fr;
   justify-content: space-evenly;
   justify-items: stretch;
   grid-gap: .5rem;
@@ -34,7 +34,7 @@
 
 .flexContainer {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   flex-flow: row;
   justify-content: space-evenly;
   justify-items: center;
@@ -44,9 +44,20 @@
   font-size: 1.1em;
 }
 
-@media (max-width: 720px) {
+@media (max-width: 800px) {
   .flexContainer {
+   font-size: .9em;
    visibility: hidden;
+  }
+  .gridContainer {
+    grid-template-columns: minmax(350px, 1fr);
+    grid-gap: 0rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .flexContainer {
+   font-size: 1em;
   }
 }
 
@@ -60,5 +71,5 @@
   transition: 0.5s;
   font-weight: bold;
   font-size: 1.02em;
-  color: rgba(114, 253, 160, 0.8);
+  color: rgba(7, 245, 86, 0.8);
 }
